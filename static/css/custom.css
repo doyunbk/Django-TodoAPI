@@ -1,0 +1,82 @@
+body {
+	background: #C27CFF;
+}
+
+h1, h2, p, span, strike, input[type="text"] {
+	font-family: 'Baloo 2', cursive;
+}
+
+.box {
+	max-width: 800px;
+	max-height: 1200px;
+	margin:100px auto;
+	align-items: flex-start;
+	justify-content: space-around;
+
+}
+
+.wrapper {
+	position: sticky;
+	background-color: #ffffff;
+ 	padding:60px;
+
+}
+
+.subject {
+	flex: 5;
+}
+
+
+.flex {
+	display: flex;
+}
+
+.btn-flex {
+	flex: 0.5;
+}
+.f{
+	font-family: 'Baloo 2', cursive;
+}
+
+.button{
+	width: 100px;
+  	margin: 0 auto; 
+  	display: block;
+  	padding: 10px 10px;
+  	font-family: 'Baloo 2', cursive;
+}
+
+.click {
+	background-color: #FF7C7C;
+}
+
+
+
+#submit {
+	background-color: #36d9b6;
+	border-radius: 0;
+	border:0;
+	color: #fff;
+}
+
+
+#form-wrapper{
+	top: 0rem;
+	background-color: #fff;
+	border-bottom: 1px solid #BABABA;
+	box-shadow: 0 4px 8px #C0C0C0;
+ 	padding:40px;
+}
+
+.task-wrapper{
+	padding: 5px;
+	padding:20px;
+	cursor: pointer;
+	border-bottom: 1px solid  #BABABA;
+	color: #686868;
+}
+
+
+.list-wrapper {
+	background-color: #ffff;
+}
